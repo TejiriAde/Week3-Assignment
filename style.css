@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  .main-container {
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    display: flex;
+  }
+  
+   #reset-setting {
+    grid-column-end: 1;
+    background-color: teal;
+   }
+
+.info-container {
+    justify-content: left;
+    background-color: grey;
+    width: 300px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.stat-container {
+    justify-content: left;
+    background-color: grey;
+    width: 300px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.legacy-container {
+    justify-content: left;
+    background-color: grey;
+    width: 300px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    background-color: teal;
+}
